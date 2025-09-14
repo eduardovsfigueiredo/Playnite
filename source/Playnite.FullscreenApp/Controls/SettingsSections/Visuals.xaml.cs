@@ -140,5 +140,10 @@ namespace Playnite.FullscreenApp.Controls.SettingsSections
                 BindingMode.TwoWay,
                 UpdateSourceTrigger.PropertyChanged);
         }
+
+        private void ToggleGameTitles_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

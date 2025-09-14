@@ -15,6 +15,7 @@
 
     <FontFamily x:Key="FontXboxOneController">/Fonts/XBOXONE.ttf#XBOXONE</FontFamily>
     <FontFamily x:Key="FontPlayStation4Controller">/Fonts/PlayStation4.ttf#PlayStation4</FontFamily>
+    <FontFamily x:Key="FontArcadeController">/Fonts/Arcade.ttf#Arcade</FontFamily>
     <FontFamily x:Key="FontTitilliumWeb">/Fonts/TitilliumWeb-Regular.ttf#Titillium Web</FontFamily>
     <FontFamily x:Key="FontTitilliumWebLight">/Fonts/TitilliumWeb-Light.ttf#Titillium Web</FontFamily>
     <FontFamily x:Key="FontTitilliumWebBold">/Fonts/TitilliumWeb-Bold.ttf#Titillium Web</FontFamily>
