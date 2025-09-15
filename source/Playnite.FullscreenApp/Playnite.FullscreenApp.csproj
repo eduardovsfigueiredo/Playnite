@@ -271,8 +271,50 @@
     </Compile>
     <Compile Include="Windows\WindowTools.cs" />
     <SplashScreen Include="SplashScreen.png" />
-    <Resource Include="..\..\references\Fonts\*.*">
-      <Link>Fonts\%(Filename)%(Extension)</Link>
+    <Resource Include="..\..\references\Fonts\Arcade.ttf">
+      <Link>Fonts\Arcade.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\icofont.ttf">
+      <Link>Fonts\icofont.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\PlayStation4.ttf">
+      <Link>Fonts\PlayStation4.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-Black.ttf">
+      <Link>Fonts\TitilliumWeb-Black.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-Bold.ttf">
+      <Link>Fonts\TitilliumWeb-Bold.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-BoldItalic.ttf">
+      <Link>Fonts\TitilliumWeb-BoldItalic.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-ExtraLight.ttf">
+      <Link>Fonts\TitilliumWeb-ExtraLight.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-ExtraLightItalic.ttf">
+      <Link>Fonts\TitilliumWeb-ExtraLightItalic.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-Italic.ttf">
+      <Link>Fonts\TitilliumWeb-Italic.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-Light.ttf">
+      <Link>Fonts\TitilliumWeb-Light.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-LightItalic.ttf">
+      <Link>Fonts\TitilliumWeb-LightItalic.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-Regular.ttf">
+      <Link>Fonts\TitilliumWeb-Regular.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-SemiBold.ttf">
+      <Link>Fonts\TitilliumWeb-SemiBold.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\TitilliumWeb-SemiBoldItalic.ttf">
+      <Link>Fonts\TitilliumWeb-SemiBoldItalic.ttf</Link>
+    </Resource>
+    <Resource Include="..\..\references\Fonts\XBOXONE.ttf">
+      <Link>Fonts\XBOXONE.ttf</Link>
     </Resource>
     <None Include="..\Playnite\license.txt">
       <Link>license.txt</Link>
@@ -501,11 +543,11 @@
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Page Include="Themes\Fullscreen\Default\Images\ButtonPrompts\Arcade\Arcade.xaml">
+    <Content Include="Themes\Fullscreen\Default\Images\ButtonPrompts\Arcade\Arcade.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Page>
+    </Content>
     <Page Include="Windows\ExtensionsMenuWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
